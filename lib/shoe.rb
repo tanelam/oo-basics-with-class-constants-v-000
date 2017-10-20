@@ -15,7 +15,7 @@ class Shoe
   end
 
   def self.BRANDS
-    BRANDS
+     BRANDS
   end
 
 end
