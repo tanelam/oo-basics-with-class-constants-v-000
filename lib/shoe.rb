@@ -6,7 +6,6 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    # binding.pry
     !BRANDS.include?(brand) ? BRANDS << brand : nil
 
   end
