@@ -12,9 +12,7 @@ class Shoe
     # else
     #   BRANDS << brand
     # end
-   BRANDS.each do |brand|
-     BRANDS << brand.uniq
-   end
+   BRANDS.include?(brand)
   end
 
   def cobble
