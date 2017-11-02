@@ -12,7 +12,10 @@ class Shoe
     # else
     #   BRANDS << brand
     # end
-   BRANDS.include?(brand)
+   if BRANDS.include?(brand)
+      nil
+    else
+      BRANDS << brand
   end
 
   def cobble
