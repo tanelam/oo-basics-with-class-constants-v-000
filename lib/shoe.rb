@@ -12,7 +12,7 @@ class Shoe
     # else
     #   BRANDS << brand
     # end
-    BRANDS << brand.uniq
+   brands = brand.collect { |x| x.uniq }
   end
 
   def cobble
