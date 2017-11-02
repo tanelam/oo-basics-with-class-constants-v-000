@@ -12,7 +12,7 @@ class Shoe
     # else
     #   BRANDS << brand
     # end
-    BRANDS << brand.uniq!
+    BRANDS << brand.uniq
   end
 
   def cobble
