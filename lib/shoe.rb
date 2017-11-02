@@ -12,8 +12,8 @@ class Shoe
     # else
     #   BRANDS << brand
     # end
-   brands = @brand.collect { |x| x.uniq }
-   BRANDS << brands
+   BRANDS.each do |brand| brand.uniq
+     
   end
 
   def cobble
