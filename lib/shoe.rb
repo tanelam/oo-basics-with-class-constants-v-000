@@ -12,7 +12,7 @@ class Shoe
     # else
     #   BRANDS << brand
     # end
-   brands = brand.collect { |x| x.uniq }
+   brands = @brand.collect { |x| x.uniq }
    BRANDS << brands
   end
 
