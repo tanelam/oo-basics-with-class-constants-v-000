@@ -13,6 +13,7 @@ class Shoe
     #   BRANDS << brand
     # end
    brands = brand.collect { |x| x.uniq }
+   BRANDS << brands
   end
 
   def cobble
